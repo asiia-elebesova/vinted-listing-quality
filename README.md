@@ -57,7 +57,7 @@ Rule-based baseline on 20 listings:
 
 Rules work for fixed phrases (non-smoking note, contact invitation) but fail where meaning matters:
 "Der Zustand ist auf den Fotos zu sehen" contains the word "Zustand" but does not state the condition, and a fit
-can be described in many ways. LLM results: see `outputs/evaluation.md` after running the steps below.
+can be described in many ways. The LLM step (`src/llm_review.py`) is implemented but has not been run on this dataset yet, because it needs a paid Anthropic API key. Running it adds its precision/recall to `outputs/evaluation.md` next to the rule-based baseline.
 
 ## How to run
 
@@ -81,7 +81,8 @@ The model can be changed with `--model` or `CLAUDE_MODEL`.
 (OAuth user token, Taxonomy API for category and required item specifics, Media API for photos,
 Inventory API for item, offer and publish). It runs in the sandbox by default, creates unpublished
 offers unless `--publish` is passed, and skips any listing that still has `[BITTE ERGÄNZEN]`
-placeholders, missing photos or missing required item specifics. Vinted and Kleinanzeigen offer no
+placeholders, missing photos or missing required item specifics.
+I used it to publish about 70 of my own items on eBay.de. Vinted and Kleinanzeigen offer no
 public seller API, so the project never automates those platforms. Setup steps: `EBAY_RU.md`.
 
 ## Limitations
