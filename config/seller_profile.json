@@ -1,0 +1,27 @@
+{
+  "height_cm": 173,
+  "usual_size": "S",
+  "usual_eu_size": "38",
+  "fit_note_template": "Ich trage normalerweise Größe {usual_size} / EU {usual_eu_size} und bin {height_cm} cm groß. Die Passform siehst du auf den Fotos.",
+  "storage_note": "Nichtraucher- und tierfreier Haushalt.",
+  "contact_invite": "Bei Fragen oder für weitere Maße gerne schreiben.",
+  "non_eu_brands": [
+    "Zolla",
+    "Love Republic",
+    "Medicine",
+    "InCity",
+    "INCITY",
+    "EVIGI",
+    "Lome Kids",
+    "Studio Pride",
+    "Befree",
+    "Gloria Jeans",
+    "Sela",
+    "O'stin",
+    "Ostin",
+    "12 Storeez",
+    "Lime",
+    "Ushatava"
+  ],
+  "language": "de"
+}

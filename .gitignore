@@ -1,0 +1,15 @@
+# secrets / personal config (never upload)
+config/ebay.json
+.ebay_token.json
+.env
+*.key
+*.pem
+
+# personal photos and personal eBay inventory
+photos/
+outputs/ebay_*.csv
+outputs/ebay_image_cache.json
+
+# Python cache
+__pycache__/
+*.pyc

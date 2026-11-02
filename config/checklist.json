@@ -1,0 +1,11 @@
+{
+  "missing_brand": "Brand is not named in the title or description, and the text does not say that the brand is unknown.",
+  "missing_size": "No size in the title or description (not applicable for accessories without size).",
+  "missing_eu_size": "The brand is from outside the EU (see non_eu_brands) and no EU size number or EU equivalent is given. Shoe sizes in EU numbers and children's sizes in cm (e.g. 128) count as EU sizes.",
+  "missing_fit_note": "Nothing helps the buyer judge the fit: no seller size/height note, no measurements of the item or of the wearer, and no statement like 'runs small/large' or 'fits XS-S'. A description of the cut alone (e.g. 'figurbetont') does not count.",
+  "missing_color": "Colour is not named in the title or description.",
+  "missing_condition": "The description does not state the condition in words (e.g. neu, sehr gut, einmal getragen). 'See photos' alone does not count.",
+  "missing_defects_statement": "For used items: the description neither describes defects nor says explicitly that there are none (e.g. keine Mängel, keine Flecken, ohne Gebrauchsspuren). New items do not need it.",
+  "missing_storage_note": "No note about a non-smoking (and pet-free) household.",
+  "missing_contact_invite": "No invitation to ask questions or request measurements/photos."
+}

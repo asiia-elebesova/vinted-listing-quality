@@ -1,0 +1,39 @@
+{
+  "environment": "sandbox",
+  "sandbox": {
+    "client_id": "YOUR_SANDBOX_APP_ID (contains -SBX-)",
+    "ru_name": "YOUR_SANDBOX_RUNAME",
+    "policies": {
+      "fulfillment_policy_id": "",
+      "payment_policy_id": "",
+      "return_policy_id": ""
+    }
+  },
+  "production": {
+    "client_id": "YOUR_PRODUCTION_APP_ID (contains -PRD-)",
+    "ru_name": "YOUR_PRODUCTION_RUNAME",
+    "policies": {
+      "fulfillment_policy_id": "",
+      "payment_policy_id": "",
+      "return_policy_id": ""
+    }
+  },
+  "marketplace_id": "EBAY_DE",
+  "content_language": "de-DE",
+  "currency": "EUR",
+  "location": {
+    "key": "home",
+    "name": "Nürnberg",
+    "city": "Nürnberg",
+    "postal_code": "90402",
+    "country": "DE"
+  },
+  "condition_map": {
+    "Neu mit Etikett": "NEW",
+    "Neu, ohne Etikett": "NEW_OTHER",
+    "Sehr gut": "USED_EXCELLENT",
+    "Gut": "USED_GOOD",
+    "Zufriedenstellend": "USED_ACCEPTABLE"
+  },
+  "_note": "Secret Cert IDs are NOT stored here: python ebay_secrets.py set (see EBAY_RU.md)"
+}
