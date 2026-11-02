@@ -47,7 +47,7 @@ Rule-based baseline on 20 listings:
 | Check | Precision | Recall | F1 |
 |---|---|---|---|
 | missing_brand | 0.86 | 1.00 | 0.92 |
-| missing_eu_size | 1.00 | 0.67 | 0.80 |
+| missing_eu_size | 0.50 | 1.00 | 0.67 |
 | missing_fit_note | 0.83 | 0.62 | 0.71 |
 | missing_color | 0.00 | 0.00 | 0.00 |
 | missing_condition | 0.00 | 0.00 | 0.00 |
